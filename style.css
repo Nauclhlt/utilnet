@@ -59,11 +59,32 @@ header {
     font-size: 34px;
 }
 
+.article-header {
+    color: var(--primary);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 34px;
+    padding-block: 8px;
+}
+
 .menu-nest {
     margin-left: 32px;
     margin-block: 12px;
     border-left: var(--divider) solid 4px;
     padding-left: 12px;
+}
+
+.article-container {
+    margin-inline: 16px;
+    margin-block: 16px;
+    border: var(--divider) solid 2px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.article-body {
+    padding: 14px;
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .link-element {
@@ -88,10 +109,13 @@ header {
         margin-inline: 24px;
     }
     .menu-header {
-        font-size: 32px;
+        font-size: 30px;
+    }
+    .article-header {
+        font-size: 30px;
     }
     .link-element {
-        font-size: 24px;
+        font-size: 22px;
     }
     .menu-nest {
         margin-left: 14px;
@@ -107,10 +131,16 @@ header {
         padding: 16px;
     }
     .menu-header {
-        font-size: 26px;
+        font-size: 21px;
+    }
+    .article-header {
+        font-size: 21px;
+    }
+    .article-body {
+        font-size: 14px;
     }
     .link-element {
-        font-size: 20px;
+        font-size: 19px;
     }
     .menu-nest {
         margin-left: 14px;
